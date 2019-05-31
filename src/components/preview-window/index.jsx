@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
-import { Button } from 'antd'
-
-class Button extends Component {
-  constructor() {
-    super()
-  }
-
+class PreviewWindow extends Component {
   render() {
     return (
       <div>
-        <Button type="primary">Button</Button>
+        {this.props.dom}
       </div>
     )
   }
 }
 
-export default Button
+export default PreviewWindow

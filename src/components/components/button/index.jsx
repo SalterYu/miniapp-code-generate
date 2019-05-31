@@ -6,7 +6,7 @@ class MyButton extends Component {
   render() {
     return (
       <div>
-        <Button type="primary">Button</Button>
+        <Button type="primary">组件2</Button>
       </div>
     )
   }
